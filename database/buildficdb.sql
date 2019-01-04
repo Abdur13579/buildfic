@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 03 Jan 2019 pada 10.30
+-- Waktu pembuatan: 04 Jan 2019 pada 10.57
 -- Versi server: 10.1.36-MariaDB
 -- Versi PHP: 7.2.11
 
@@ -149,10 +149,7 @@ INSERT INTO `top_d` (`id`, `background_path`, `judul`, `tulisan`, `link`, `judul
 (24, 'upload/top_d_background_path_24.jpg', 'v', 'suka ati jhfjdhfkjdascd', '#', ''),
 (25, 'upload/top_d_background_path_25.jpg', 'jhafdjs', 'fjkdhfdaf', '#', ''),
 (26, 'upload/top_d_background_path_26.jpg', 'gdh', 'hghdgdh', '#', ''),
-(27, 'upload/top_d_background_path_27.jpg', 'tes 3', 'fgfg', '#', ''),
-(28, 'upload/top_d_background_path_28.jpg', 'ytytyt', 'ytytytyty', '#', ''),
-(29, 'upload/top_d_background_path_29.jpg', 'tytty', 'ytyty', '#', ''),
-(30, 'upload/top_d_background_path_30.jpg', 'ytyty', 'tytyt', '#', '');
+(27, 'upload/top_d_background_path_27.jpg', 'tes 3', 'fgfg', '#', '');
 
 -- --------------------------------------------------------
 
@@ -176,16 +173,16 @@ CREATE TABLE `top_e` (
 --
 
 INSERT INTO `top_e` (`id`, `background_path`, `keterangan`, `tulisan_di_dalam_kotak`, `judul_tulisan_di_bawah_kotak`, `tulisan_di_bawah_kotak_1`, `tulisan_di_bawah_kotak_2`, `link`) VALUES
-(1, 'upload/top_e_background_image_1_bisa_diupdate.jpg', 'bla bla bla keterangan portfoloio_1 dengan panjang varchar 10000 12', '1.tulisan_di_dalam_kotak tes', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_1', 'tulisan_di_bawah_kotak_2', 'portfolio.php'),
 (2, 'upload/top_e_background_image_2_bisa_diupdate.jpg', 'bla bla bla keterangan portfoloio_2 dengan panjang varchar 10000 22', '2.tulisan_di_dalam_kotak tes 2', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_', 'tulisan_di_bawah_kotak_', 'portfolio.php'),
 (3, 'upload/top_e_background_image_3_bisa_diupdate.jpg', 'bla bla bla keterangan portfoloio_3 dengan panjang varchar 10000 ', 'tulisan_di_dalam_kotak', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_1', 'tulisan_di_bawah_kotak_2', 'portfolio.php'),
 (4, 'upload/top_e_background_image_4_bisa_diupdate.jpg', 'bla bla bla keterangan portfoloio_4 dengan panjang varchar 10000 ', 'tulisan_di_dalam_kotak', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_1', 'tulisan_di_bawah_kotak_2', 'portfolio.php'),
-(5, 'upload/top_e_background_image_5_bisa_diupdate.jpg', 'bla bla bla keterangan portfoloio_5 dengan panjang varchar 10000 ', 'tulisan_di_dalam_kotak', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_1', 'tulisan_di_bawah_kotak_2', 'portfolio.php'),
 (6, 'upload/top_e_background_image_6_bisa_diupdate.jpg', 'bla bla bla keterangan portfoloio_6 dengan panjang varchar 10000 ', 'tulisan_di_dalam_kotak', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_1', 'tulisan_di_bawah_kotak_2', 'portfolio.php'),
 (7, 'upload/top_e_background_image_7_bisa_diupdate.jpg', 'bla bla bla keterangan portfoloio_7 dengan panjang varchar 10000 ', 'tulisan_di_dalam_kotak. tes 123', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_1', 'tulisan_di_bawah_kotak_2', 'portfolio.php'),
 (8, 'upload/top_e_background_image_8_bisa_diupdate.jpg', 'bla bla bla keterangan portfoloio_8 dengan panjang varchar 10000 ', 'tulisan_di_dalam_kotak', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_1', 'tulisan_di_bawah_kotak_2', 'portfolio.php'),
-(9, 'upload/top_e_background_image_30_bisa_diupdate.jpg', '', 'tes', '', '', '', 'portfolio.php'),
-(44, 'upload/top_e_background_image_44_bisa_diupdate.jpg', 'ini bla bla bla keterangan portfoloio_1 dengan panjang varchar 10987', 'ini.tulisan_di_dalam_kotak tes', 'ini judul_tulisan_di_bawah_kotak', 'ini tulisan_di_bawah_kotak_1', 'ini tulisan_di_bawah_kotak_2', 'portfolio.php');
+(9, 'upload/top_e_background_image_9_bisa_diupdate.jpg', 'aaa', 'aaaa', 'aaaa', 'aaaa', 'aaa', 'portfolio.php'),
+(10, 'upload/top_e_background_image_10_bisa_diupdate.jpg', 'BBB', 'BBB', 'BBB', 'BBB', 'BBB', 'portfolio.php'),
+(11, 'upload/top_e_background_image_11_bisa_diupdate.jpg', 'tes nambah data', 'tes nambah data', 'tes nambah data', 'tulisan_di_bawah_kotak_1', 'tes nambah data', 'portfolio.php'),
+(12, 'upload/top_e_background_image_12_bisa_diupdate.jpg', 'tes nambah data', 'tes nambah data', 'judul_tulisan_di_bawah_kotak', 'tulisan_di_bawah_kotak_1', 'tulisan_di_bawah_kotak_2', 'portfolio.php');
 
 -- --------------------------------------------------------
 
@@ -436,13 +433,13 @@ ALTER TABLE `top_c`
 -- AUTO_INCREMENT untuk tabel `top_d`
 --
 ALTER TABLE `top_d`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT untuk tabel `top_e`
 --
 ALTER TABLE `top_e`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT untuk tabel `top_e_kotak_kiri`
